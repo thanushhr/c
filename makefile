@@ -1,5 +1,5 @@
-store.exe:main.o big2.o 
-	gcc -o store.exe main.o big2.o 
+store.exe:main.o big2.o fact.o
+	gcc -o store.exe main.o big2.o fact.o
 
 main.o:main.c
 	gcc -c main.c
